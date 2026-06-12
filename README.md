@@ -4,8 +4,6 @@ Project ini merupakan sistem monitoring kenyamanan ruang belajar berbasis Intern
 
 Data dari sensor DHT22, BH1750, MQ-135, dan KY-037 diproses oleh ESP32 kemudian ditampilkan melalui dashboard Blynk. Selain monitoring secara real-time, sistem juga menggunakan indikator LED untuk menunjukkan kondisi ruangan, dimana lampu hijau menandakan kondisi nyaman dan lampu merah menandakan kondisi tidak nyaman.
 
-Project ini mengimplementasikan konsep multi-sensor IoT, sinkronisasi data sensor dengan sampling rate berbeda, serta monitoring lingkungan berbasis WiFi menggunakan ESP32.
-
 ## Components
 - ESP32
 - DHT22 Sensor
