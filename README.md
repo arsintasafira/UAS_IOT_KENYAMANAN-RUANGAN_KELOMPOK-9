@@ -1,4 +1,4 @@
-## Sistem Monitoring Kenyamanan Ruang Belajar Berbasis IoT
+# SISTEM MONITORING KENYAMANAN RUANG BELAJAR BERBASIS IOT
 
 Project ini merupakan sistem monitoring kenyamanan ruang belajar berbasis Internet of Things (IoT) menggunakan ESP32 dan beberapa sensor lingkungan. Sistem dirancang untuk memantau suhu, kelembapan, pencahayaan, kualitas udara, dan tingkat kebisingan secara real-time agar kondisi ruang belajar dapat dianalisis dengan lebih mudah.
 
