@@ -1,3 +1,9 @@
+/*
+Catatan :
+Pengembangan dan implementasi progress kedua project ini telah dilakukan pada 10 Juni 2025.
+Repository GitHub baru diperbarui dan diunggah pada tanggal saat ini sebagai bagian dari proses dokumentasi project.
+*/
+
 #include <Wire.h>
 #include <DHT.h>
 #include <BH1750.h>
