@@ -1,14 +1,10 @@
 ## Sistem Monitoring Kenyamanan Ruang Belajar Berbasis IoT
 
-Project ini merupakan implementasi Internet of Things (IoT) untuk memonitor tingkat kenyamanan ruang belajar secara real-time menggunakan ESP32 dan beberapa sensor lingkungan. Sistem dirancang untuk membantu pengguna memahami kondisi ruangan berdasarkan parameter suhu, kelembapan, intensitas cahaya, kualitas udara, dan tingkat kebisingan. Dengan adanya monitoring ini, pengguna dapat mengetahui apakah lingkungan belajar berada dalam kondisi nyaman atau tidak nyaman.
+Project ini merupakan sistem monitoring kenyamanan ruang belajar berbasis Internet of Things (IoT) menggunakan ESP32 dan beberapa sensor lingkungan. Sistem dirancang untuk memantau suhu, kelembapan, pencahayaan, kualitas udara, dan tingkat kebisingan secara real-time agar kondisi ruang belajar dapat dianalisis dengan lebih mudah.
 
-Dalam pengembangannya, sistem mengintegrasikan sensor DHT22 untuk membaca suhu dan kelembapan, BH1750 untuk mengukur intensitas cahaya, MQ-135 untuk mendeteksi kualitas udara, serta KY-037 untuk memantau tingkat kebisingan. Seluruh data sensor diproses oleh ESP32 sebagai mikrokontroler utama yang memiliki kemampuan konektivitas WiFi sehingga data dapat dikirim dan divisualisasikan melalui dashboard Blynk secara real-time.
+Data dari sensor DHT22, BH1750, MQ-135, dan KY-037 diproses oleh ESP32 kemudian ditampilkan melalui dashboard Blynk. Selain monitoring secara real-time, sistem juga menggunakan indikator LED untuk menunjukkan kondisi ruangan, dimana lampu hijau menandakan kondisi nyaman dan lampu merah menandakan kondisi tidak nyaman.
 
-Selain menampilkan hasil monitoring pada dashboard, sistem juga menggunakan indikator LED sebagai penanda kondisi ruangan. LED hijau akan menyala ketika kondisi lingkungan berada dalam kategori nyaman, sedangkan LED merah akan menyala apabila kondisi lingkungan tidak memenuhi parameter kenyamanan yang telah ditentukan. Penentuan kenyamanan dilakukan berdasarkan beberapa parameter, seperti suhu 22–27°C, kelembapan 40–60% RH, dan intensitas cahaya minimal 300 lux.
-
-Project ini juga memperhatikan perbedaan sampling rate antar sensor. Untuk mengatasi perbedaan frekuensi pembacaan data, sistem menggunakan metode polling dengan interval tetap agar seluruh data dapat dianalisis secara sinkron dan konsisten. Pendekatan ini memungkinkan sistem memberikan hasil monitoring yang lebih stabil dan akurat.
-
-Melalui project ini, konsep IoT berhasil diterapkan dalam sistem monitoring lingkungan belajar berbasis multi-sensor. Sistem tidak hanya mampu melakukan pemantauan kondisi ruangan secara komprehensif, tetapi juga memberikan visualisasi data secara interaktif sehingga dapat membantu menciptakan lingkungan belajar yang lebih nyaman dan optimal.
+Project ini mengimplementasikan konsep multi-sensor IoT, sinkronisasi data sensor dengan sampling rate berbeda, serta monitoring lingkungan berbasis WiFi menggunakan ESP32.
 
 ## Components
 - ESP32
@@ -20,6 +16,12 @@ Melalui project ini, konsep IoT berhasil diterapkan dalam sistem monitoring ling
 - Blynk Dashboard
 
 ## Authors
-Kelompok 9  
+Kelompok 9 :
+1. Arsinta Safira Devi		  (23083010012)
+2. Setiawati Nugraheni		  (23083010018)
+3. Nabila Yudhitya Larasati	(23083010086)
+4. Salsabila Wardah		      (23083010092)
+5. Marthalia Kusumarima	    (23083010100)
+
 Program Studi Sains Data  
 UPN “Veteran” Jawa Timur
