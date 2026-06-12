@@ -5,7 +5,7 @@ Project ini merupakan sistem monitoring kenyamanan ruang belajar berbasis Intern
 Data dari sensor DHT22, BH1750, MQ-135, dan KY-037 diproses oleh ESP32 kemudian ditampilkan melalui dashboard Blynk. Selain monitoring secara real-time, sistem juga menggunakan indikator LED untuk menunjukkan kondisi ruangan, dimana lampu hijau menandakan kondisi nyaman dan lampu merah menandakan kondisi tidak nyaman.
 
 ## Spesifikasi Sensor
-- **DHT22**: Pembacaan suhu dan kelembapan
+- **DHT22**: Membaca suhu dan kelembapan
 - **BH1750**: Pengukuran intensitas cahaya
 - **MQ-135**: Deteksi kualitas udara
 - **KY-037**: Sensor suara/kebisingan
