@@ -1,3 +1,12 @@
+/*
+Catatan:
+Pengerjaan dan pengujian fitur pada program ini telah
+dilaksanakan pada tanggal 21 Mei 2026. Dokumentasi dan
+pengunggahan ke repository GitHub dilakukan pada
+12 Juni 2026 sehingga riwayat commit tidak sepenuhnya
+merepresentasikan waktu pengembangan awal proyek.
+*/
+
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
